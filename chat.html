@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimonial Chat</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Add your custom CSS styles here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to Bootstrap JavaScript and Popper.js (required for some Bootstrap components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster+Two">
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body> <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Instant shaadi</a>
+            
+    <div class="ml-auto">
+        <img src="profile1.jpg" alt="User Profile" class="profile-image">
+        <span class="username">John Doe</span>
+    </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <u class="navbar-nav ml-auto"></u>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plan.html">Membership Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html"> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="homebride.html">homebride </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+  
+ 
+
+    <!-- Chat Container -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Chat Sidebar -->
+            <div class="col-md-4">
+                <!-- Add a list of chat contacts here -->
+                <div class="contacts">
+                    <!-- Example contact item -->
+                    <div class="contact-item active">
+                        <img src="profile1.jpg" alt="Contact 1" class="contact-image">
+                        <span class="username">john Doe</span>
+                    </div>
+
+                    <!-- Add more contact items as needed -->
+                </div>
+            </div>
+
+            <!-- Chat Window -->
+            <div class="col-md-8">
+                <div class="chat-window">
+                    <!-- Chat messages will be displayed here -->
+                    <div class="messages">
+                        <!-- Example message -->
+                        <div class="message received">
+                            <div class="message-content">
+                                Hello, how are you?
+                            </div>
+                        </div>
+                        <div class="message sent">
+                            <div class="message-content">
+                                I'm doing well, thank you!
+                            </div>
+                        </div>
+                        <!-- Add more messages as the conversation progresses -->
+                    </div>
+
+                    <!-- Chat input field -->
+                    <div class="input-group mt-3">
+                        <input type="text" class="form-control" placeholder="Type your message...">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and your custom scripts here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

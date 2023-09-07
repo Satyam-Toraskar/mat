@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+    font-weight: narmal;
+    color: #ffffff;
+}
+
+
+/* Header Styles */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+.h2{
+    background-color: #007bff;
+    color: #fff;
+}
+.pcolor{
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* styles.css */
+
+
+
+
+
+
+.btn-primary {
+    background-color: #a5e8fb;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.btn-primary:hover {
+    background-color: #736dea;
+    border :#736dea /* Change the background color */
+}
+.card-body {
+    background-color: #a5e8fb; /* Change the background color */
+    color: #020202;
+}
+.text center{
+    color:#fff;
+}
+.username{
+    color: black;
+}
+.message-content{
+    color:black;
+}

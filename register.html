@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link to Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Link to Bootstrap JavaScript and Popper.js (required for some Bootstrap components) -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster+Two">
+     <link rel="stylesheet" href="styleregister.css">
+    <title>Matrimonial Site - Registration</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+
+        <div class="logo-container">
+            <img class="logo" src="islogo.png" alt="Logo">
+            <span class="text">INSTANT SHAADI </span>
+
+        </div>
+    
+    
+    <h1>Welcome to instant shaadi.com</h1>
+
+        <p>Find your perfect match today.</p>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">edit profile</a></li>
+                  <li><a class="dropdown-item" href="plan.html">buy plan</a></li>
+                  <li><a class="dropdown-item" href="login.html">GO back</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+           
+        </div>
+          </div>
+        </div>
+      </nav>
+
+ 
+
+    <!-- Registration Form Section -->
+    <div class="register-container">
+        <h2>Register your details</h2>
+        <form action="#" method="post">
+            <div >
+             
+                <label class="displaynames" for="username"><b>First Name</b></label>
+                <input type="text" placeholder="Enter First Name" name="Name" id="fname" required>
+
+
+            </div>
+            <div >
+         
+                <label class="displaynames" for="Lname"><b>Last Name</b></label>
+                <input type="text" placeholder="Enter Last Name" name="Lname" id="lname" required >
+            </div>
+            <div>
+                
+
+
+
+                <label class="displaynames" for="Phone"><b>Phone Number</b></label>
+                <input type="number" placeholder="Enter Phone Number" name="Phone" id="phone" required> 
+            </div>
+            <div>
+               
+
+                <label class="displaynames" for="address"><b>Full address</b></label>
+                <input type="text" placeholder="Enter Full address" name="address" id="adddress">
+            </div>
+            <div>
+             
+
+                <label class="displaynames" for="country"><b>Country</b></label>
+                <input type="text" placeholder="Enter Country" name="country" id="country" >
+            </div>
+            <div>
+                
+
+                <label class="displaynames" for="state"><b>state</b></label>
+                <input type="text" placeholder="Enter state" name="state" id="state" >
+            </div>
+            <div>
+             
+
+                <label class="displaynames" for="City"><b>City</b></label>
+                <input type="text" placeholder="Enter City" name="City" id="City" > 
+            </div>
+            <div>
+
+                <label class="displaynames" for="Religion"><b>Religion</b></label>
+                <input type="text" placeholder="Enter Religion" name="Religion" id="religion">
+              </div>
+              <div>
+
+          
+                <label class="displaynames" for="Mother tongue"><b>Mother tongue</b></label>
+                <input type="text" placeholder="Enter Mother tongue" name="mother tongue" id="mother-tongue">
+              </div>
+              <div>
+                  <label class="displaynames" for ="picture"><b>Upload Picture </b>;</label>
+                <input type="file" name="picture"></div>
+             <div> 
+               <form >
+                 <label class="displaynames" for="Gender"><b>Choose gender</b></label>
+                 <select id="Gender" name="Gender">
+                  <option value="Male">Male </option>
+                 <option value="Female">Female </option>
+                 </select>
+               </form></div>
+
+               <div>
+                   <label class="displaynames" for="datepicker"><b>Select a DOB:</b></label>
+                    <input type="date" id="datepicker" name="datepicker">
+                </div>
+                <div>
+                <label class="displaynames" for="email"><b>Email:</b></label>
+                <input type="email" id="email" name="email" required>
+                   </div>
+                  <div>
+                <label class="displaynames" for="password"><b>Password:</b></label>
+                <input type="password" id="password" name="password" required>
+                 </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Matrimonial Site. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

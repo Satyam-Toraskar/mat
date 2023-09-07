@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple QR Payment</title>
+    <!-- Include qrcode.js library for QR code generation -->
+    
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+    <header><h1>Instant shaadi</h1></header>
+    <h2>Simple QR Payment</h2>
+    <form id="payment-form">
+        <label for="amount">Enter Payment Amount:</label>
+        <input type="number" id="amount" required>
+        <button type="submit">Generate QR Code</button>
+    </form>
+
+    <!-- Placeholder for displaying the QR code -->
+    <div id="qrcode"></div>
+    <footer><p>2023 matrimonial site</p></footer>
+
+    <script>
+        const paymentForm = document.getElementById('payment-form');
+        const qrCodeContainer = document.getElementById('qrcode');
+
+        paymentForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            // Get the payment amount from the form input
+            const amount = parseFloat(document.getElementById('amount').value);
+
+            // Generate the QR code
+            const qr = new QRCode(qrCodeContainer, {
+                text: `bitcoin:${amount}`, // Replace with your payment method
+                width: 128,
+                height: 128,
+            });
+        });
+    </script>
+</body>
+</html>
